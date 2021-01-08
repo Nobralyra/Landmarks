@@ -13,6 +13,8 @@
 		8453C60424FD0E0700C5A73A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8453C60324FD0E0700C5A73A /* Assets.xcassets */; };
 		8453C60724FD0E0700C5A73A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8453C60624FD0E0700C5A73A /* Preview Assets.xcassets */; };
 		8453C60A24FD0E0700C5A73A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8453C60824FD0E0700C5A73A /* LaunchScreen.storyboard */; };
+		8453C61224FD114500C5A73A /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8453C61124FD114500C5A73A /* CircleImage.swift */; };
+		8453C61424FD13A100C5A73A /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8453C61324FD13A100C5A73A /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		8453C60624FD0E0700C5A73A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8453C60924FD0E0700C5A73A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8453C60B24FD0E0700C5A73A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8453C61124FD114500C5A73A /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		8453C61324FD13A100C5A73A /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				8453C60824FD0E0700C5A73A /* LaunchScreen.storyboard */,
 				8453C60B24FD0E0700C5A73A /* Info.plist */,
 				8453C60524FD0E0700C5A73A /* Preview Content */,
+				8453C61124FD114500C5A73A /* CircleImage.swift */,
+				8453C61324FD13A100C5A73A /* MapView.swift */,
 			);
 			path = Landmarks;
 			sourceTree = "<group>";
@@ -147,6 +153,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8453C5FE24FD0E0100C5A73A /* AppDelegate.swift in Sources */,
+				8453C61224FD114500C5A73A /* CircleImage.swift in Sources */,
+				8453C61424FD13A100C5A73A /* MapView.swift in Sources */,
 				8453C60024FD0E0100C5A73A /* SceneDelegate.swift in Sources */,
 				8453C60224FD0E0100C5A73A /* ContentView.swift in Sources */,
 			);
